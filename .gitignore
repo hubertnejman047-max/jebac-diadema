@@ -30,3 +30,22 @@ Thumbs.db
 .env
 *.key
 *.pem
+
+# Surowe dane pomiarowe i wyniki próbek
+/RR*/
+/8M*/
+/* - filtered/
+
+# Pliki DIAdem generowane dla serii
+*.TDM
+*.tdm
+*.TDR
+*.tdr
+*.tdx
+
+# Wygenerowane maski i obrazy
+/FOscy_series_upper_envelope_mask.csv
+/Layout*.PNG
+
+# Logi i pliki awaryjne
+/05_generuj_DS_AWARIA.txt
