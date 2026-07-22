@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Dane pomiarowe i duże wyniki
+*.wav
+*.npy
+*.tif
+*.tiff
+
+# Foldery wynikowe
+Output/
+output/
+*-filtered/
+
+# Pliki tymczasowe
+*.tmp
+*.bak
+~$*
+.DS_Store
+Thumbs.db
+
+# Dane uwierzytelniające
+.env
+*.key
+*.pem
